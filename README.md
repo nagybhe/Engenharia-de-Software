@@ -65,14 +65,6 @@ Será desenvolvido um sistema web (ex: cadastro de usuários), com arquitetura e
 * Performance: K6
 * conteinerização | virtualização: Docker
 
-| FRONT-END    | BACK-END     | PERSISTÊNCIA                               |Automação de Testes |Performance|conteinerização ou virtualização | FRONT-END    | BACK-END     | PERSISTÊNCIA                               |Automação de Testes |Performance|conteinerização | virtualização
-
-|--------------|--------------|--------------------------------------------|
-| Exploratório | Manual       | Identificar falhas inesperadas             |
-| Automatizado | Cypress      | Testar cenários definidos com CI           |
-| Notificação  | Telegram API | Avisar sobre o resultado dos testes        |
-| Performance  | K6           | Validar estabilidade da API de notificação |
-
 ### 8. Processo de Desenvolvimento
 Será utilizado um processo iterativo e incremental baseado no ciclo ágil. As fases serão:
 * Levantamento de requisitos
@@ -82,8 +74,6 @@ Será utilizado um processo iterativo e incremental baseado no ciclo ágil. As f
 * Integração com Telegram + K6
 * Coleta de métricas
 * Análise comparativa
-
-
 
 ### 9. Testes e Validação
 | Tipo         | Ferramenta   | Objetivo                                   |
